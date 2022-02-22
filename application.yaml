@@ -1,0 +1,6 @@
+features:
+  properties:
+    divergent-analysis-days: 3
+    expire-post-code-days: 5
+    expirePostCodeScheduler: */40 * * * * *
+    acceptPendingDivergentAnalysisScheduler: 0 10 15 * * *
