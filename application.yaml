@@ -4,8 +4,8 @@ features:
     expire-post-code-days: 10
     expirePostCodeScheduler: "*/40 * * * * *"
     acceptPendingDivergentAnalysisScheduler: "0 10 15 * * *"
-    
- test.cron:
+
+cron:
   schedulers:
     divergent-analysis:
       days: 3
